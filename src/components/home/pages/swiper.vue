@@ -5,7 +5,7 @@
             v-for="item of list"
             :key="item.id"
          >
-            <img :src="item.imgUrl" width="375" alt="">
+            <img :src="item.imgUrl" width="375" >
         </mt-swipe-item>
         <div class="swiper-pagetion"></div>
         </mt-swipe>       
