@@ -7,7 +7,6 @@
          >
             <img :src="item.imgUrl" width="375" >
         </mt-swipe-item>
-        <div class="swiper-pagetion"></div>
         </mt-swipe>       
     </div>  
 </template>

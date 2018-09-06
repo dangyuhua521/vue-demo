@@ -33,7 +33,7 @@
                <mt-cell :title="e.name"
                 v-for="e of item" 
                 :key="e.id"
-                @click="handleCityClick(e.name)"
+                @click.native="handleCityClick(e.name)"
                  ></mt-cell> 
            </mt-index-section>
         </mt-index-list>

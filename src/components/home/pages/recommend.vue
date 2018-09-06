@@ -2,7 +2,8 @@
     <div>
         <div class="title">热销推荐</div>
         <ul>
-            <router-link tag="li"
+            <router-link 
+            tag="li"
             class="item border-bottom" 
             v-for="item of list"
             :key="item.id"
