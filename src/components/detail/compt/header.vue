@@ -9,7 +9,8 @@
     <div 
     :style="opacityStyle"
     class="header-fixed"
-    v-show="!showabs">
+    v-show="!showabs"
+    >
             <router-link to="/">
               <div class="iconfont header-fixed-back" >&#xe624;</div>  
             </router-link>
@@ -43,6 +44,9 @@ export default {
     },
     activated(){
         window.addEventListener('scroll',this.handleScroll)
+    },
+    deactivated(){
+        window.removeEventListener('scroll',this.handleScroll)
     }
 }
 </script>
