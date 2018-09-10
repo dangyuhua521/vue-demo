@@ -4,10 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import fastClick from 'fastclick'//解决点击延迟300毫秒
-// import apis from './server/api'
 import store from './store'
-// Vue.use(apis);
-
+import 'babel-polyfill'
 import './assets/style/reset.css'//解决不同手机型号
 import './assets/style/border.css'//解决手机1像素边框
 import './assets/style/iconfont.css'
